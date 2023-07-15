@@ -14,8 +14,8 @@
   **_Depencies_**
   rsg-core
 
-  ```
-  CONFIG = {}
+ 
+ ```CONFIG = {}
 
 CONFIG.DealerPos = vector4(-1811.048, -556.9874, 155.98309, 253.00506)
 
