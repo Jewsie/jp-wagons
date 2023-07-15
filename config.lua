@@ -4,13 +4,13 @@ CONFIG.DealerPos = vector4(-1811.048, -556.9874, 155.98309, 253.00506)
 
 CONFIG.wagonid = {
     {
-        hash = -824257932, 
-        model = 'cart01', 
-        name = 'Cart 1', 
-        price = 10,
-        wagonSpawn = vector4(-1802.889, -603.457, 154.11616, 313.62756),
-        storage = 150,
-        weight = 500000
+        hash = -824257932, -- The hash id of the model
+        model = 'cart01', -- The model itself
+        name = 'Cart 1', Whichever name you would like it to be called
+        price = 10, -- The price of the wagon
+        wagonSpawn = vector4(-1802.889, -603.457, 154.11616, 313.62756), -- Ignore this, just add 0 to it or smt
+        storage = 150, -- How many slots the wagon has
+        weight = 500000 -- How much weight there can be in the wagon
     },
     {
         hash = -2053881888, 
