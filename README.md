@@ -12,6 +12,10 @@
 - Easy to modify config file
 
 
+**_Keybinds_**
+[J] To call thne Wagon
+[B] To open the stash
+
 
 **_Depencies_**
 - rsg-core
