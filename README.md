@@ -92,5 +92,4 @@ CONFIG.wagonid = {
         storage = 1000,
         weight = 1000000
     },
-}
-```
+}```
