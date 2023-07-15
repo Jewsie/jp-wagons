@@ -13,8 +13,8 @@
 
 
 **_Keybinds_**
-[J] To call thne Wagon
-[B] To open the stash
+- [J] To call thne Wagon
+- [B] To open the stash
 
 
 **_Depencies_**
