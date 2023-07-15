@@ -12,7 +12,7 @@
 - Easy to modify config file
 
   **_Depencies_**
-  rsg-core
+  - rsg-core
 
  
  ```CONFIG = {}
