@@ -14,7 +14,6 @@ RegisterServerEvent('jp-wagons:server:buywagon', function(name, price, model, st
     end)
 
     Player.Functions.RemoveMoney('cash', price)
-    RSGCore.Functions.Notify(src, 'You bought a wagon, press J to call it!, 'success', 3000)
 end)
 
 RegisterServerEvent('jp-wagons:server:ownedwagons', function()
@@ -57,7 +56,7 @@ RegisterServerEvent('jp-wagons:server:activatewagon', function(data)
     MySQL.update('UPDATE player_wagons SET active = ? WHERE wagonid = ?', {
         currentActive, data.wagonid
     }, function(affectedRows)
-        print(affectedRows)
+        RSGCore.Functions.Notify(src, 'Your wagon is now active, press J to call it!, 'success', 3000)
     end)
 end)
 
