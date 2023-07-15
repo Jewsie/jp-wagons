@@ -11,8 +11,10 @@
 - Inventory/Storage system on the wagons that can be modified easily in config
 - Easy to modify config file
 
-  **_Depencies_**
-  - rsg-core
+
+
+**_Depencies_**
+- rsg-core
 
  
  ```CONFIG = {}
